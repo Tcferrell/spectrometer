@@ -27,7 +27,13 @@ pip install -e ".[dev]"
 
 ## Usage
 
-*Coming soon.*
+Show the live camer feed on the Pi's monitor
+'''bash
+spectrometer stream
+'''
+
+Use '--fullscreen' to fill the screen, or '--framerate' to change the framerate (default is 30fps)
+press Ctrl + C to stop.
 
 ## Development
 
